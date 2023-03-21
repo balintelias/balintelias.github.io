@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Bootstrap | homepage</title>
+<meta name="keywords" content="">
+<meta name="description" content="Igény, R, Python A bootstrapelés az adatbővítés egyik formája. Akkor használjuk, ha a rendelkezésre állónál nagyobb adathalmazra van szükség, de új mérések elvégzésére nincs lehetőség. Orvosi kutatáshoz merült fel egy erre alkalmas program létrehozása édesapám részéről. Ő először R nyelven adta a feladatot, és el is kezdtem foglalkozni vele, de aztán az addig ismert és egyetemen tanult C/C&#43;&#43; nyelvtől való különbség miatt (illetve az eredmények hiánya miatt) végül egy Python programban állapodtunk meg.">
+<meta name="author" content="elias">
+<link rel="canonical" href="http://balintelias.hu/posts/bootstrap/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.6a98292fb8fa8cf0f3ba4042d4b75515c04267550f3ad49ff6271b5af9562443.css" integrity="sha256-apgpL7j6jPDzukBC1LdVFcBCZ1UPOtSf9icbWvlWJEM=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="http://balintelias.hu/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://balintelias.hu/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://balintelias.hu/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://balintelias.hu/apple-touch-icon.png">
+<link rel="mask-icon" href="http://balintelias.hu/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Bootstrap" />
+<meta property="og:description" content="Igény, R, Python A bootstrapelés az adatbővítés egyik formája. Akkor használjuk, ha a rendelkezésre állónál nagyobb adathalmazra van szükség, de új mérések elvégzésére nincs lehetőség. Orvosi kutatáshoz merült fel egy erre alkalmas program létrehozása édesapám részéről. Ő először R nyelven adta a feladatot, és el is kezdtem foglalkozni vele, de aztán az addig ismert és egyetemen tanult C/C&#43;&#43; nyelvtől való különbség miatt (illetve az eredmények hiánya miatt) végül egy Python programban állapodtunk meg." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://balintelias.hu/posts/bootstrap/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-03-21T18:34:50+01:00" />
+<meta property="article:modified_time" content="2023-03-21T18:34:50+01:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Bootstrap"/>
+<meta name="twitter:description" content="Igény, R, Python A bootstrapelés az adatbővítés egyik formája. Akkor használjuk, ha a rendelkezésre állónál nagyobb adathalmazra van szükség, de új mérések elvégzésére nincs lehetőség. Orvosi kutatáshoz merült fel egy erre alkalmas program létrehozása édesapám részéről. Ő először R nyelven adta a feladatot, és el is kezdtem foglalkozni vele, de aztán az addig ismert és egyetemen tanult C/C&#43;&#43; nyelvtől való különbség miatt (illetve az eredmények hiánya miatt) végül egy Python programban állapodtunk meg."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://balintelias.hu/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Bootstrap",
+      "item": "http://balintelias.hu/posts/bootstrap/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Bootstrap",
+  "name": "Bootstrap",
+  "description": "Igény, R, Python A bootstrapelés az adatbővítés egyik formája. Akkor használjuk, ha a rendelkezésre állónál nagyobb adathalmazra van szükség, de új mérések elvégzésére nincs lehetőség. Orvosi kutatáshoz merült fel egy erre alkalmas program létrehozása édesapám részéről. Ő először R nyelven adta a feladatot, és el is kezdtem foglalkozni vele, de aztán az addig ismert és egyetemen tanult C/C++ nyelvtől való különbség miatt (illetve az eredmények hiánya miatt) végül egy Python programban állapodtunk meg.",
+  "keywords": [
+    
+  ],
+  "articleBody": "Igény, R, Python A bootstrapelés az adatbővítés egyik formája. Akkor használjuk, ha a rendelkezésre állónál nagyobb adathalmazra van szükség, de új mérések elvégzésére nincs lehetőség. Orvosi kutatáshoz merült fel egy erre alkalmas program létrehozása édesapám részéről. Ő először R nyelven adta a feladatot, és el is kezdtem foglalkozni vele, de aztán az addig ismert és egyetemen tanult C/C++ nyelvtől való különbség miatt (illetve az eredmények hiánya miatt) végül egy Python programban állapodtunk meg.\nHogyan növelhetjük az adatsokaság mértékét? Az eljárás egészen egyszerű: vegyünk példának egy 10 elemű adatsokaságot, amely helyett 20 elemű adatsokaságot szeretnénk. Ha ezek egyszerű fizikai mérések, például egy feszültségmérő által mért érték, egyszerűen mérhetünk még 10-et.\nAzonban vannak esetek, amikor ez kivitelezhető könnyen. Az eredeti problémában limitált páciensen végzett mérések adatait kellett kezelni. Ebben az esetben bizonyos limitációkat leszámítva használhatjuk a bootstrap folyamatát.\nTérjünk vissza a példához: az eljárás lényege az, hogy az új adathalmaz létrehozásához 20-szor választunk véletlenszerűen az eredeti 10 adat közül egyet. Egyszerű művelet, de az új adatsokaság bizonyos statisztikai szempontok szerint nagyon hasonlít az eredetihez. Ezt könnyen ellenőrizhetjük nem véletlenszerű adathalmazok hisztogramjával, vagy alapvető statisztikai jellemzők számításával (szórás, módusz, stb.). Az eljárás helyességének bizonyítását nem tárgyalom itt.\nFejlesztés menete Első lépés Egy egydimenziós adathalmazra működő programot könnyű volt létrehozni. Speciális adathalmazt hoztam létre, amiben 0 és 100 közötti számok voltak, de szignifikánsan több szám volt 40 és 60 között, mint azon kívül. Az eredeti és az új adathalmaz hisztogramon gyakorlatilag megkülönböztethetetlenül néztek ki, és a szórásuk is nagyon közel állt egymáshoz.\nNehézségek Az egyetemen gyakran előkerült (oktatási célból) az a gondolat, hogy mindent magunknak fejlesszünk le. A fájlkezelést ezért hardcode-oltam a programba input.txt és output.txt fájlokkal. Hamar kiderült, hogy ez felhasználó oldalról fenntarthatatlan, mert egyszerre több adathalmazt kell egymástól függetlenül bővíteni. Az adatok Excel táblázatban voltak, ami viszont egy másik I/O problémát vetett fel: a file.xlsx bemenettel nem tudtam mit kezdeni. Végül a .csv bemeneti és kimeneti fájl lett a kompromisszumos megoldás, amelyhez egyszerű Python könyvtár áll rendelkezésre.\nEzután megint lábon lőttem magam a csv fájlokkal. A csv könyvtár mintakódját értelmezés nélkül másoltam, nem figyeltem az elválasztó karakterre, ami nem megfelelően működött, ennek megoldását pedig újra hardcode-oltam átmeneti fájlokkal. A dokumentáció alapján végül kiderült, hogy egy paraméter szerkesztésével egyszerűen megoldható és változtatható hogy mi az elválasztó karakter. Az utolsó lépés az volt, hogy a sorok első elemét ne adatként, hanem azonosítóként kezelje a program.\nPublikáció A végleges forrásfájlokat final és source könyvtárakba rendeztem, angol és magyar nyelvű dokumentációt írtam a programhoz, majd DOI számmal hoztam létre GitHub release-t. Jelenleg a v2.0 verzió az utolsó kiadás, amely továbbra is limitációkkal rendelkezik: csak egész számokat tud kezelni. A programot GNU GPLv3 licensszel publikáltam.\nHasználat A program egy pontosvesszővel elválaszott .csv fájlt vár el bemenetként, a kimenet ugyanilyen formájú. A program soronként kezeli az adathalmazt.\nA bemeneti fájl nevét a program futás közben kéri a felhasználótól, a kimeneti fájl neve pedig bemenet_rep_méret.csv formátumú.\nA bemeneti fájl első oszlopa azonosítókból állhat, ezeket a program nem változtatja. A fájlban az adatok csak egész számok lehetnek.\nEzen kívül elérhető a -h/--Help flag, ami ennek az összefoglalónak a kompakt verziója.\nA -d/--Debug flag diagnosztikai üzeneteket jelenít meg a program futása közben\nA program a bemenet sikeres megnyitása és olvasása után kéri a felhasználótól az új adathalmaz méretét. Ezután több interakcióra nincs szükség.\n",
+  "wordCount" : "542",
+  "inLanguage": "en",
+  "datePublished": "2023-03-21T18:34:50+01:00",
+  "dateModified": "2023-03-21T18:34:50+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "elias"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://balintelias.hu/posts/bootstrap/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "homepage",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://balintelias.hu/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://balintelias.hu/" accesskey="h" title="homepage (Alt + H)">homepage</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Bootstrap
+    </h1>
+    <div class="post-meta"><span title='2023-03-21 18:34:50 +0100 CET'>March 21, 2023</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;elias
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#ig%c3%a9ny-r-python" aria-label="Igény, R, Python">Igény, R, Python</a></li>
+                <li>
+                    <a href="#hogyan-n%c3%b6velhetj%c3%bck-az-adatsokas%c3%a1g-m%c3%a9rt%c3%a9k%c3%a9t" aria-label="Hogyan növelhetjük az adatsokaság mértékét?">Hogyan növelhetjük az adatsokaság mértékét?</a></li>
+                <li>
+                    <a href="#fejleszt%c3%a9s-menete" aria-label="Fejlesztés menete">Fejlesztés menete</a><ul>
+                        
+                <li>
+                    <a href="#els%c5%91-l%c3%a9p%c3%a9s" aria-label="Első lépés">Első lépés</a></li>
+                <li>
+                    <a href="#neh%c3%a9zs%c3%a9gek" aria-label="Nehézségek">Nehézségek</a></li>
+                <li>
+                    <a href="#publik%c3%a1ci%c3%b3" aria-label="Publikáció">Publikáció</a></li></ul>
+                </li>
+                <li>
+                    <a href="#haszn%c3%a1lat" aria-label="Használat">Használat</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h3 id="igény-r-python">Igény, R, Python<a hidden class="anchor" aria-hidden="true" href="#igény-r-python">#</a></h3>
+<p>A bootstrapelés az adatbővítés egyik formája. Akkor használjuk, ha a rendelkezésre állónál nagyobb adathalmazra van szükség, de új mérések elvégzésére nincs lehetőség.
+Orvosi kutatáshoz merült fel egy erre alkalmas program létrehozása édesapám részéről. Ő először R nyelven adta a feladatot, és el is kezdtem foglalkozni vele, de aztán az addig ismert és egyetemen tanult C/C++ nyelvtől való különbség miatt (illetve az eredmények hiánya miatt) végül egy Python programban állapodtunk meg.</p>
+<h3 id="hogyan-növelhetjük-az-adatsokaság-mértékét">Hogyan növelhetjük az adatsokaság mértékét?<a hidden class="anchor" aria-hidden="true" href="#hogyan-növelhetjük-az-adatsokaság-mértékét">#</a></h3>
+<p>Az eljárás egészen egyszerű: vegyünk példának egy 10 elemű adatsokaságot, amely helyett 20 elemű adatsokaságot szeretnénk.
+Ha ezek egyszerű fizikai mérések, például egy feszültségmérő által mért érték, egyszerűen mérhetünk még 10-et.</p>
+<p>Azonban vannak esetek, amikor ez kivitelezhető könnyen. Az eredeti problémában limitált páciensen végzett mérések adatait kellett kezelni.
+Ebben az esetben bizonyos limitációkat leszámítva használhatjuk a bootstrap folyamatát.</p>
+<p>Térjünk vissza a példához: az eljárás lényege az, hogy az új adathalmaz létrehozásához 20-szor választunk véletlenszerűen az eredeti 10 adat közül egyet.
+Egyszerű művelet, de az új adatsokaság bizonyos statisztikai szempontok szerint nagyon hasonlít az eredetihez. Ezt könnyen ellenőrizhetjük nem véletlenszerű adathalmazok hisztogramjával, vagy alapvető statisztikai jellemzők számításával (szórás, módusz, stb.).
+Az eljárás helyességének bizonyítását nem tárgyalom itt.</p>
+<h3 id="fejlesztés-menete">Fejlesztés menete<a hidden class="anchor" aria-hidden="true" href="#fejlesztés-menete">#</a></h3>
+<h4 id="első-lépés">Első lépés<a hidden class="anchor" aria-hidden="true" href="#első-lépés">#</a></h4>
+<p>Egy egydimenziós adathalmazra működő programot könnyű volt létrehozni. Speciális adathalmazt hoztam létre, amiben 0 és 100 közötti számok voltak, de szignifikánsan több szám volt 40 és 60 között, mint azon kívül. Az eredeti és az új adathalmaz hisztogramon gyakorlatilag megkülönböztethetetlenül néztek ki, és a szórásuk is nagyon közel állt egymáshoz.</p>
+<h4 id="nehézségek">Nehézségek<a hidden class="anchor" aria-hidden="true" href="#nehézségek">#</a></h4>
+<p>Az egyetemen gyakran előkerült (oktatási célból) az a gondolat, hogy mindent magunknak fejlesszünk le. A fájlkezelést ezért hardcode-oltam a programba <code>input.txt</code> és <code>output.txt</code> fájlokkal. Hamar kiderült, hogy ez felhasználó oldalról fenntarthatatlan, mert egyszerre több adathalmazt kell egymástól függetlenül bővíteni. Az adatok Excel táblázatban voltak, ami viszont egy másik I/O problémát vetett fel: a <code>file.xlsx</code> bemenettel nem tudtam mit kezdeni. Végül a <code>.csv</code> bemeneti és kimeneti fájl lett a kompromisszumos megoldás, amelyhez egyszerű Python könyvtár áll rendelkezésre.</p>
+<p>Ezután megint lábon lőttem magam a csv fájlokkal. A csv könyvtár mintakódját értelmezés nélkül másoltam, nem figyeltem az elválasztó karakterre, ami nem megfelelően működött, ennek megoldását pedig újra hardcode-oltam átmeneti fájlokkal.
+A dokumentáció alapján végül kiderült, hogy egy paraméter szerkesztésével egyszerűen megoldható és változtatható hogy mi az elválasztó karakter.
+Az utolsó lépés az volt, hogy a sorok első elemét ne adatként, hanem azonosítóként kezelje a program.</p>
+<h4 id="publikáció">Publikáció<a hidden class="anchor" aria-hidden="true" href="#publikáció">#</a></h4>
+<p>A végleges forrásfájlokat final és source könyvtárakba rendeztem, angol és magyar nyelvű dokumentációt írtam a programhoz, majd DOI számmal hoztam létre GitHub release-t. Jelenleg a v2.0 verzió az utolsó kiadás, amely továbbra is limitációkkal rendelkezik: csak egész számokat tud kezelni.
+A programot GNU GPLv3 licensszel publikáltam.</p>
+<h3 id="használat">Használat<a hidden class="anchor" aria-hidden="true" href="#használat">#</a></h3>
+<p>A program egy pontosvesszővel elválaszott <code>.csv</code> fájlt vár el bemenetként, a kimenet ugyanilyen formájú. A program soronként kezeli az adathalmazt.</p>
+<p>A bemeneti fájl nevét a program futás közben kéri a felhasználótól, a kimeneti fájl neve pedig <code>bemenet_rep_méret.csv</code> formátumú.</p>
+<p>A bemeneti fájl első oszlopa azonosítókból állhat, ezeket a program nem változtatja. A fájlban az adatok csak egész számok lehetnek.</p>
+<p>Ezen kívül elérhető a <code>-h</code>/<code>--Help</code> flag, ami ennek az összefoglalónak a kompakt verziója.</p>
+<p>A <code>-d</code>/<code>--Debug</code> flag diagnosztikai üzeneteket jelenít meg a program futása közben</p>
+<p>A program a bemenet sikeres megnyitása és olvasása után kéri a felhasználótól az új adathalmaz méretét. Ezután több interakcióra nincs szükség.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="http://balintelias.hu/">homepage</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
