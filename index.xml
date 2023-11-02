@@ -6,16 +6,7 @@
     <description>Recent content on homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>hu-HU</language>
-    <lastBuildDate>Tue, 21 Mar 2023 18:34:50 +0100</lastBuildDate><atom:link href="http://balintelias.hu/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Bootstrap</title>
-      <link>http://balintelias.hu/posts/bootstrap/</link>
-      <pubDate>Tue, 21 Mar 2023 18:34:50 +0100</pubDate>
-      
-      <guid>http://balintelias.hu/posts/bootstrap/</guid>
-      <description>Igény, R, Python A bootstrapelés az adatbővítés egyik formája. Akkor használjuk, ha a rendelkezésre állónál nagyobb adathalmazra van szükség, de új mérések elvégzésére nincs lehetőség. Orvosi kutatáshoz merült fel egy erre alkalmas program létrehozása édesapám részéről. Ő először R nyelven adta a feladatot, és el is kezdtem foglalkozni vele, de aztán az addig ismert és egyetemen tanult C/C++ nyelvtől való különbség miatt (illetve az eredmények hiánya miatt) végül egy Python programban állapodtunk meg.</description>
-    </item>
-    
+    <lastBuildDate>Mon, 24 Jan 2022 22:39:44 +0100</lastBuildDate><atom:link href="http://balintelias.hu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>init</title>
       <link>http://balintelias.hu/posts/init/</link>
