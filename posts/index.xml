@@ -4,7 +4,7 @@
     <title>Posts on homepage</title>
     <link>http://balintelias.hu/posts/</link>
     <description>Recent content in Posts on homepage</description>
-    <generator>Hugo -- 0.123.7</generator>
+    <generator>Hugo -- 0.146.6</generator>
     <language>hu-HU</language>
     <lastBuildDate>Tue, 06 Aug 2024 22:15:25 +0200</lastBuildDate>
     <atom:link href="http://balintelias.hu/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,21 @@
       <link>http://balintelias.hu/posts/pics/</link>
       <pubDate>Tue, 06 Aug 2024 22:15:25 +0200</pubDate>
       <guid>http://balintelias.hu/posts/pics/</guid>
-      <description>Ha ideírok az content?</description>
+      <description>&lt;p&gt;Ha ideírok az content?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kata</title>
+      <link>http://balintelias.hu/posts/kata/</link>
+      <pubDate>Thu, 11 Aug 2022 21:02:36 +0200</pubDate>
+      <guid>http://balintelias.hu/posts/kata/</guid>
+      <description>&lt;h1 id=&#34;szia-szeretlek&#34;&gt;Szia szeretlek&lt;/h1&gt;</description>
     </item>
     <item>
       <title>init</title>
       <link>http://balintelias.hu/posts/init/</link>
       <pubDate>Mon, 24 Jan 2022 22:39:44 +0100</pubDate>
       <guid>http://balintelias.hu/posts/init/</guid>
-      <description>Ha ideírok az content?</description>
+      <description>&lt;p&gt;Ha ideírok az content?&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
