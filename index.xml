@@ -6,28 +6,15 @@
     <description>Recent content on homepage</description>
     <generator>Hugo -- 0.146.6</generator>
     <language>hu-HU</language>
-    <lastBuildDate>Tue, 06 Aug 2024 22:15:25 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 21 Apr 2025 12:33:20 +0200</lastBuildDate>
     <atom:link href="http://balintelias.hu/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Pics</title>
-      <link>http://balintelias.hu/posts/pics/</link>
-      <pubDate>Tue, 06 Aug 2024 22:15:25 +0200</pubDate>
-      <guid>http://balintelias.hu/posts/pics/</guid>
-      <description>&lt;p&gt;Ha ideírok az content?&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Kata</title>
-      <link>http://balintelias.hu/posts/kata/</link>
-      <pubDate>Thu, 11 Aug 2022 21:02:36 +0200</pubDate>
-      <guid>http://balintelias.hu/posts/kata/</guid>
-      <description>&lt;h1 id=&#34;szia-szeretlek&#34;&gt;Szia szeretlek&lt;/h1&gt;</description>
-    </item>
     <item>
       <title>init</title>
       <link>http://balintelias.hu/posts/init/</link>
-      <pubDate>Mon, 24 Jan 2022 22:39:44 +0100</pubDate>
+      <pubDate>Mon, 21 Apr 2025 12:33:20 +0200</pubDate>
       <guid>http://balintelias.hu/posts/init/</guid>
-      <description>&lt;p&gt;Ha ideírok az content?&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;hi&#34;&gt;hi&lt;/h1&gt;
+&lt;p&gt;hi. there might be &lt;em&gt;some&lt;/em&gt; content on this page, but i&amp;rsquo;m not 100% sure.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
